@@ -1,3 +1,5 @@
+[![Heroku App Status](http://heroku-shields.herokuapp.com/shrouded-lake-31041)](https://shrouded-lake-31041.herokuapp.com)
+
 # Adonis API application
 
 This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
