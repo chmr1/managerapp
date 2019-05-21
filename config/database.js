@@ -1,7 +1,7 @@
 'use strict'
 
 /** @type {import('@adonisjs/framework/src/Env')} */
-const Env = use('env.example')
+const Env = use('Env')
 
 /** @type {import('@adonisjs/ignitor/src/Helpers')} */
 const Helpers = use('Helpers')
