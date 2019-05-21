@@ -16,5 +16,12 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
+Route.get('/', ({request, response}) => {
+    return response.status(200).json({
+      message: 'welcome to our api'
+    })
+  })
+Route.get('/users', 'UserController.index')
+
 Route.post('/users', 'UserController.create')
 Route.post('/sessions', 'SessionController.create')
